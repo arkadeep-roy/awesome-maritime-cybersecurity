@@ -1,0 +1,22 @@
+name: Unsafe content report
+description: Report content that may enable unsafe or unauthorized activity
+labels: [safety-review]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: File
+      description: Which file contains the concern?
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: Concern
+      description: Explain what should be reviewed or changed.
+    validations:
+      required: true
+  - type: textarea
+    id: safer-alternative
+    attributes:
+      label: Suggested safer wording or structure

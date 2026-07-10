@@ -1,0 +1,39 @@
+name: New resource suggestion
+description: Suggest a tool, paper, incident, standard, vendor, or regional source
+labels: [new-resource]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Standard or regulation
+        - System or protocol
+        - Red-team / offensive research
+        - Blue-team / defensive engineering
+        - CVE or vulnerability
+        - Incident
+        - Tool or testbed
+        - Research paper or report
+        - Vendor or organization
+        - Regional coverage
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Resource title
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Source link
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should it be included?
+    validations:
+      required: true

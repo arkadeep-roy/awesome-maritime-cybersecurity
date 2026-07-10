@@ -1,0 +1,21 @@
+name: Broken link
+description: Report a broken or outdated link
+labels: [broken-link]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: File
+      description: Which file contains the broken link?
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Broken link
+    validations:
+      required: true
+  - type: textarea
+    id: replacement
+    attributes:
+      label: Suggested replacement

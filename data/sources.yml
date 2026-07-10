@@ -1,0 +1,94 @@
+sources:
+- name: IMO Maritime Cyber Risk
+  url: https://www.imo.org/en/ourwork/security/pages/cyber-security.aspx
+  type: official
+- name: IMO MSC-FAL.1/Circ.3/Rev.3
+  url: https://wwwcdn.imo.org/localresources/en/OurWork/Security/Documents/MSC-FAL.1-Circ.3-Rev.3.pdf
+  type: official_pdf
+- name: IACS UR E26/E27 press release
+  url: https://iacs.org.uk/news/iacs-ur-e26-and-e27-press-release
+  type: official
+- name: USCG Maritime Cybersecurity Resource Center
+  url: https://www.uscg.mil/MaritimeCyber/
+  type: official
+- name: NVD CVE-2026-22208
+  url: https://nvd.nist.gov/vuln/detail/CVE-2026-22208
+  type: vulnerability_database
+- name: NVD CVE-2016-5817
+  url: https://nvd.nist.gov/vuln/detail/CVE-2016-5817
+  type: vulnerability_database
+- name: ABB KEPServerEX advisory
+  url: https://search.abb.com/library/Download.aspx?Action=Launch&DocumentID=8MAL100030-0015&DocumentPartId=&LanguageCode=en
+  type: vendor_advisory
+- name: CISA and USCG Advisory AA25-212A
+  url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-212a
+  type: official_advisory
+- name: CISA Port Resilience Index
+  url: https://www.cisa.gov/mts-resilience-resources/port-resilience-index
+  type: official
+- name: CISA MTS Resilience Assessment Guide
+  url: https://www.cisa.gov/news-events/news/cisa-releases-marine-transportation-system-resilience-assessment-guide-0
+  type: official
+- name: GAO-25-107244 Coast Guard maritime cybersecurity
+  url: https://www.gao.gov/products/gao-25-107244
+  type: official_report
+regional_and_ecosystem_sources:
+- name: DG Shipping cyber-risk circular via IRClass
+  url: https://www.irclass.org/technical-circulars/dg-shipping-circular-reg-implementation-of-cyber-security-risk-mitigation-measures-onboard-indian-flag-ships/
+- name: IRClass Guidelines on Maritime Cyber Safety
+  url: https://www.irclass.org/media/7145/irs-g-saf-02_guidelines-on-maritime-cyber-safety-rev1_march-2024.pdf
+- name: Bureau of Port Security PIB release
+  url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2206443
+- name: MTS-ISAC
+  url: https://www.mtsisac.org/
+- name: NORMA Cyber
+  url: https://www.normacyber.no/
+- name: MCAD
+  url: https://maritimecybersecurity.nl/
+- name: Cydome Maritime Cybersecurity Trends Report 2026
+  url: https://cydome.io/cydome-publishes-its-annual-maritime-cybersecurity-trends-report-for-2026/
+- name: CYTUR 2026 Maritime Cyber Threat White Paper
+  url: https://cytur.net/en/resources-media-reports/
+regional_research_sources:
+- name: MPA MariOT Training Facility
+  url: https://www.mpa.gov.sg/media-centre/details/mpa-commissions-mariot-training-facility
+  region: southeast_asia
+- name: MPA Hamburg Port Authority cybersecurity cooperation
+  url: https://www.mpa.gov.sg/media-centre/details/mpa-signs-mou-with-hamburg-port-authority-and-ihls-to-strengthen-maritime-cybersecurity-cooperation
+  region: southeast_asia
+- name: MPA Maritime OT Cybersecurity Programme
+  url: https://www.mpa.gov.sg/media-centre/details/empowering-the-maritime-workforce--launch-of-maritime-operational-technology-cybersecurity-programme-for-corporate-it-professionals
+  region: southeast_asia
+- name: ICWA Indian Ocean maritime cybersecurity analysis
+  url: https://www.icwa.in/show_content.php?lang=1&level=1&lid=8557&ls_id=14105
+  region: indian_ocean
+- name: Inside GNSS MSC Antonia analysis
+  url: https://insidegnss.com/msc-antonia-grounding-in-the-red-sea-attributed-to-suspected-gps-spoofing/
+  region: middle_east_red_sea
+- name: RICS GNSS spoofing in Arabian Gulf
+  url: https://www.rics.org/news-insights/gnss-spoofing-and-mitigation-in-the-arabian-gulf
+  region: middle_east_red_sea
+- name: Dragos Port of Nagoya ransomware analysis
+  url: https://www.dragos.com/blog/ot-cybersecurity-breach-disrupts-operations-at-the-port-of-nagoya-japan
+  region: east_asia
+- name: COSCO Shipping Lines 2018 cyber attack confirmation
+  url: https://psabdp.com/news/cosco-hit-by-cyber-attack
+  region: east_asia
+- name: KHOA S-100 Viewer OpenS100 repository
+  url: https://github.com/S-100ExpertTeam/khoa-s100-viewer
+  region: east_asia
+- name: SeaSpoofFinder paper
+  url: https://arxiv.org/abs/2602.16257
+  region: russia_baltic_black_sea
+- name: DP World Australia cybersecurity incident statement
+  url: https://www.dpworld.com/en/news/releases/australia/media-statement-update-on-cybersecurity-incident
+  region: oceania
+- name: Australian SOCI obligations for critical ports factsheet
+  url: https://www.cisc.gov.au/resources-subsite/Documents/cisc-factsheet-soci-act-obligations-for-critical-ports.pdf
+  region: oceania
+- name: ENISA port cybersecurity good practices
+  url: https://www.enisa.europa.eu/publications/port-cybersecurity-good-practices-for-cybersecurity-in-the-maritime-sector
+  region: europe
+- name: EMSA cybersecurity inspection guidance
+  url: https://www.emsa.europa.eu/publications/inventories/download/7660/5074/23.html
+  region: europe

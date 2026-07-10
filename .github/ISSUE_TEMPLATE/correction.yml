@@ -1,0 +1,25 @@
+name: Correction or fact-check
+description: Report an incorrect claim, outdated classification, or missing caveat
+labels: [correction, fact-check]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: File
+      description: Which file contains the issue?
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is wrong?
+      description: Explain the correction needed.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Add official, academic, vendor, CVE, or credible media sources.
+    validations:
+      required: true
